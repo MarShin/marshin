@@ -1,7 +1,6 @@
 {
-  "name": "gatsby-starter-mate",
-  "version": "2.5.1",
-  "description": "Gatsby v2 starter to create a top notch portfolio!",
+  "name": "martin-shin-personal-webpage",
+  "description": "Martin Shin's personal webpage",
   "main": "index.js",
   "scripts": {
     "fix-medium-plugin": "sed -i' ' 's/\\/latest//g' ./node_modules/gatsby-source-medium/gatsby-node.js",
@@ -15,23 +14,14 @@
     "e2e:open": "cypress open",
     "e2e:ci": "DETERMINISTIC=true start-server-and-test serve http://localhost:9000 'percy exec -- cypress run'"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/EmaSuriano/gatsby-starter-mate.git"
-  },
   "keywords": [
-    "gatsby",
-    "starter",
-    "contentful",
-    "PWA",
+    "Martin Shin",
+    "marshin",
     "portfolio"
   ],
-  "author": "Ema Suriano",
+  "author": "Martin Shin",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/EmaSuriano/gatsby-starter-mate/issues"
-  },
-  "homepage": "https://github.com/EmaSuriano/gatsby-starter-mate#readme",
+  "homepage": "https://github.com/marshin/marshin-mate#readme",
   "dependencies": {
     "@tippy.js/react": "^2.2.3",
     "contentful": "^7.0.3",
